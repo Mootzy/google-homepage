@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-top: 10px;
+}
+ul .floatleft {
+  float: left;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+li a:hover {
+  text-decoration: underline;
+}
+ul .floatright {
+  float: right;
+}
+/* input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -100px;
+  width: 500px;
+  height: 20px;
+  border: none;
+  border: 1px solid rgb(184, 181, 181);
+  box-shadow: 0 1px 1px;
+} */
+.wrapper {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  margin: 0 auto;
+  margin-right: 120px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid #eaeaea;
+  outline: none;
+  box-shadow: 1px 1px 1px rgb(97, 96, 96);
+  border-radius: 22px;
+}
+
+input[type="submit"] {
+  border-radius: 2px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  cursor: default;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px 16px;
+  padding-right: 20px;
+  height: 36px;
+  margin-right: 100px;
+  border-radius: 22px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+input .lucky {
+  padding-right: 50px;
+}
+.submit {
+  margin-right: 120px;
+}
+@media only screen and (max-width: 700px) and (max-width: 780px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+  .searchbar {
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 500px;
+  }
+  input .lucky {
+    padding-right: 50px;
+  }
+  .submit {
+    margin-right: 120px;
+  }
+  .wrapper {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+}
